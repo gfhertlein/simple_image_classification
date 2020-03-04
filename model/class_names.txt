@@ -1,4 +1,5 @@
-train
 car
-airplane
+train
+bicycle
 sailboat
+airplane
