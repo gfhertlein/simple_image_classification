@@ -57,7 +57,12 @@ import psutil
 from collections import defaultdict
 import numpy as np
 from six.moves import urllib
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
+
+# tf.io.gfile.FastGFile = tf.compat.v1.gfile.FastGFile
+# tf.GraphDef = tf.compat.v1.GraphDef
+# tf.Session = tf.compat.v1.Session
 
 FLAGS = tf.compat.v1.app.flags.FLAGS
 
