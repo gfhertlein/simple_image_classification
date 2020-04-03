@@ -33,7 +33,7 @@ master_file_name = file_index_to_file_name[0]
 master_vector = file_index_to_file_vector[0]
 
 named_nearest_neighbors = []
-nearest_neighbors = t.get_nns_by_item(i, n_nearest_neighbors)
+nearest_neighbors = t.get_nns_by_item(0, n_nearest_neighbors)
 for j in nearest_neighbors:
   neighbor_file_name = file_index_to_file_name[j]
   neighbor_file_vector = file_index_to_file_vector[j]
