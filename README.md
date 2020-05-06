@@ -1,1 +1,1 @@
-# gfhertlein.github.io
+# gfhertlein.github.io/simple_image_classification
